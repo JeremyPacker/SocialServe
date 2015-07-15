@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:layout_margin="5dp"
+    android:background="@layout/materialdrop"
+    android:dividerHeight="0dp" >>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Graduation"
+        android:id="@+id/list_name"
+        android:textColor="#203246"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="on 12/23/2015"
+        android:id="@+id/list_date"
+        android:paddingTop="-3dp"
+        android:layout_below="@id/list_name"
+        android:layout_alignParentLeft ="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="33dp"
+        android:id="@+id/eventAttending"
+        android:textColor="#15856f"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attend"
+        android:textColor="#203246"
+        android:id="@+id/textView"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
